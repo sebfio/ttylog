@@ -45,7 +45,10 @@ https://github.com/rocasa/ttylog/issues
 
 Sebastian Fiorini Changes
 -------------------------
+Added a binary `ttylog` device that is compiled for Raspberry pi's for
+my convenience of not having to recompile the source each time it's cloned.
 
 Changes were made to this software to support UART speeds of 3.5 Mhz
 The software is now updated to version 0.30.0 to reflect these changes.
 - Sebastian Fiorini <sebf465@gmail.com>
+
