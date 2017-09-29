@@ -40,7 +40,7 @@ https://sourceforge.net/p/ttylog/support-requests/
 https://sourceforge.net/p/ttylog/bugs/
 https://sourceforge.net/p/ttylog/patches/
 https://sourceforge.net/p/ttylog/feature-requests/
-https://github.com/rocasa/ttylog/issues
+https://github.com/sebfio/ttylog/issues
 
 
 Sebastian Fiorini Changes
@@ -50,5 +50,6 @@ my convenience of not having to recompile the source each time it's cloned.
 
 Changes were made to this software to support UART speeds of 3.5 Mhz
 The software is now updated to version 0.30.0 to reflect these changes.
-- Sebastian Fiorini <sebf465@gmail.com>
+
+Sebastian Fiorini <sebf465@gmail.com>
 
