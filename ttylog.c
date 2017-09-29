@@ -3,6 +3,7 @@
  Copyright (C) 2008-2016  Robert James Clay <jame@rocasa.us>
  Copyright (C)      2016  Alexander (MrMontag) Fust <MrMontagOpenDev@gmail.com>
  Copyright (C)      2016  Logan Rosen <loganrosen@gmail.com>
+ Copyright (C)      2017  Sebastian Fiorini
 
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -33,15 +34,15 @@
 
 #include "config.h"
 
-#define BAUDN 9
+#define BAUDN 10
 
 char flush = 0;
 
 char *BAUD_T[] =
-{"300", "1200", "2400", "4800", "9600", "19200", "38400", "57600", "115200"};
+{"300", "1200", "2400", "4800", "9600", "19200", "38400", "57600", "115200", "3500000"};
 
 int BAUD_B[] =
-{B300, B1200, B2400, B4800, B9600, B19200, B38400, B57600, B115200};
+{B300, B1200, B2400, B4800, B9600, B19200, B38400, B57600, B115200, B3500000};
 
 int
 main (int argc, char *argv[])
@@ -85,6 +86,7 @@ main (int argc, char *argv[])
           printf ("Copyright (C) 2016 Robert James Clay <jame@rocasa.us>\n");
           printf ("Copyright (C) 2016 Logan Rosen <loganrosen@gmail.com>\n");
           printf ("Copyright (C) 2016 Alexander (MrMontag) Fust <alexander.fust.info@gmail.com>\n");
+          printf ("Copyright (C) 2017 Sebastian Fiorini <sebf465@gmail.com>\n");
           printf ("Copyright (C) 2002 Tibor Koleszar <oldw@debian.org>\n");
           printf ("License GPLv2+: <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>\n");
           printf ("This is free software: you are free to change and redistribute it.\n");

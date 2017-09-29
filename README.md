@@ -31,7 +31,7 @@ Code
 ----
 
 ttylog Git repository:  http://sourceforge.net/p/ttylog/code/
-ttylog at GitHub:  https://github.com/rocasa/ttylog
+ttylog at GitHub:       https://github.com/sebfio/ttylog 
 
 Support
 -------
@@ -43,6 +43,9 @@ https://sourceforge.net/p/ttylog/feature-requests/
 https://github.com/rocasa/ttylog/issues
 
 
+Sebastian Fiorini Changes
+-------------------------
 
-
-
+Changes were made to this software to support UART speeds of 3.5 Mhz
+The software is now updated to version 0.30.0 to reflect these changes.
+- Sebastian Fiorini <sebf465@gmail.com>
